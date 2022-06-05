@@ -9,8 +9,8 @@ module.exports = (sequelize, dataTypes) => {
         price: Decimal,
         region: datatypes.STRING,   // varchar()???
         image: Blob,
-	      id_category: datatypes.INTEGER,
-	      id_grind: datatypes.INTEGER,
+	      id_categorys: datatypes.INTEGER,
+	      id_grinds: datatypes.INTEGER,
         id_weight:datatypes.INTEGER,
 
         
