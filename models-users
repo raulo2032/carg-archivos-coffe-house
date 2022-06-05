@@ -10,7 +10,7 @@ module.exports = (sequelize, dataTypes) => {
         username: datatypes.STRING,
         password: datatypes.STRING,
         password: datatypes.STRING,
-        image: blob,
+        //  image: 
     };
   
     const config = {
